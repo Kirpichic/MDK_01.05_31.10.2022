@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Курс JavaScript</title>
+
+	<script>
+		let user = {
+			category: "Высшая",
+			site: "master.sweb.ru",
+			emai: "master@mail.ru",
+			note: "Нет данных",
+			surname: "",
+			name: "",
+			patronymic: "",
+			ocupation: "",
+			degree: "",
+		}
+
+		user.surname = prompt ("surname", "Баранов"); user.name = prompt ("name", "Виктор"); user.patronymic = prompt ("patronymic", "Александрович");
+		user.ocupation = prompt ("ocupation", "Преподаватель специальных дисциплин"); user.degree = prompt ("degree", "Высшее");
+
+		console.log("category: "+user.category+"\nsite: "+user.site+"\nemai: "+user.emai+"\nnote: "+user.note+"\nsurname: "+user.surname+"\nname: "+user.name+
+		"\npatronymic: "+user.patronymic+"\nocupation: "+user.ocupation+"\ndegree: "+user.degree);
+
+		alert("category: "+user.category+"\nsite: "+user.site+"\nemai: "+user.emai+"\nnote: "+user.note+"\nsurname: "+user.surname+"\nname: "+user.name+
+		"\npatronymic: "+user.patronymic+"\nocupation: "+user.ocupation+"\ndegree: "+user.degree);
+	</script>	
+</head>
+
+<body>
+	<header>
+		<h1 align = "center">Введение в JavaScript</h1>
+	</header>	
+	
+	<footer align = "center">
+	</footer>
+</body>
+</html>

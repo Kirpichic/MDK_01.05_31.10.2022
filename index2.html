@@ -5,11 +5,23 @@
 	<title>Курс JavaScript</title>
 
 	<script>
-		// инициализируем объект
-		
-		
-		// выводим объект в консоль
+		let user = {
+			category: "Высшая",
+			site: "master.sweb.ru",
+			emai: "master@mail.ru",
+			note: "Нет данных",
+			surname: "",
+			name: "",
+			patronymic: "",
+			ocupation: "",
+			degree: "",
+		}
 
+		user.surname = prompt ("surname", "Баранов"); user.name = prompt ("name", "Виктор"); user.patronymic = prompt ("patronymic", "Александрович");
+		user.ocupation = prompt ("ocupation", "Преподаватель специальных дисциплин"); user.degree = prompt ("degree", "Высшее");
+
+		console.log("category: "+user.category+"\nsite: "+user.site+"\nemai: "+user.emai+"\nnote: "+user.note+"\nsurname: "+user.surname+"\nname: "+user.name+
+		"\npatronymic: "+user.patronymic+"\nocupation: "+user.ocupation+"\ndegree: "+user.degree);
 	</script>	
 
 </head>
